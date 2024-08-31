@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import './App.css';
 import headerVideo from './header.ehoh.mp4';
 import ladyPic from './ladypic.jpg';
 import AboutUs from './AboutUs';
-import Careers from './Careers'; // Make sure this import is correct
+import Careers from './Careers';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -12,13 +13,13 @@ function App() {
       <div>
         <div className="top-bar">
           <div className="logo">
-            <h2>***Sight Under Construction***</h2>
+            <h2>Welcome Home</h2>
           </div>
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about-us">About Us</Link></li>
             <li><Link to="/careers">Careers</Link></li>
-            {/* Add other links here as needed */}
+            <li><Link to="/contact">Contact Us</Link></li>
           </ul>
           <button className="phone-button">619-825-6159</button>
         </div>
@@ -42,7 +43,7 @@ function App() {
                     <p><span className="address-number">13706 Whispering Meadows Ln, Jamul, CA 91935</span></p>
                     <p className="phone-number">Call us: 619-825-6159</p>
                     <p className="fax-number">Fax: 619-303-3055</p> 
-                    <button className="get-started-button">Get Started</button>
+                    <Link to="/contact"><button className="get-started-button">Get Started</button></Link>
                   </div>
                 </div>
                 <div className="image-container">
@@ -79,7 +80,8 @@ function App() {
           } />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/careers" element={<Careers />} />
-          {/* Add other routes here */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
     </Router>
