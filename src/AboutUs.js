@@ -7,7 +7,7 @@ function AboutUs() {
       {/* Banner Section */}
       <div className="banner">
         <h2>About Us</h2>
-        <h3>40+ Years of Changing Lives</h3>
+        <h3>10 Years of Changing Lives</h3>
         <p>We consider it a privilege to love and serve our friends and neighbors.</p>
       </div>
 
