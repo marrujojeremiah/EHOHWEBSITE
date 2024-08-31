@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/EHOH-Website/static/css/main.4cd56d39.css",
-    "main.js": "/EHOH-Website/static/js/main.af822975.js",
-    "static/media/header.ehoh.mp4": "/EHOH-Website/static/media/header.ehoh.bc69f884e68b85827da8.mp4",
-    "static/media/ladypic.jpg": "/EHOH-Website/static/media/ladypic.d61e1da01487514e4de9.jpg",
-    "static/media/hands.jpg": "/EHOH-Website/static/media/hands.88d34b20da6d5a193f0f.jpg",
-    "static/media/contactus.jpg": "/EHOH-Website/static/media/contactus.f2dafdf433cc51160d62.jpg",
-    "index.html": "/EHOH-Website/index.html",
-    "main.4cd56d39.css.map": "/EHOH-Website/static/css/main.4cd56d39.css.map",
-    "main.af822975.js.map": "/EHOH-Website/static/js/main.af822975.js.map"
+    "main.css": "/EHOHWEBSITE/static/css/main.6fa00407.css",
+    "main.js": "/EHOHWEBSITE/static/js/main.c2cb916e.js",
+    "static/media/header.ehoh.mp4": "/EHOHWEBSITE/static/media/header.ehoh.bc69f884e68b85827da8.mp4",
+    "static/media/ladypic.jpg": "/EHOHWEBSITE/static/media/ladypic.d61e1da01487514e4de9.jpg",
+    "static/media/hands.jpg": "/EHOHWEBSITE/static/media/hands.88d34b20da6d5a193f0f.jpg",
+    "static/media/contactus.jpg": "/EHOHWEBSITE/static/media/contactus.f2dafdf433cc51160d62.jpg",
+    "index.html": "/EHOHWEBSITE/index.html",
+    "main.6fa00407.css.map": "/EHOHWEBSITE/static/css/main.6fa00407.css.map",
+    "main.c2cb916e.js.map": "/EHOHWEBSITE/static/js/main.c2cb916e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cd56d39.css",
-    "static/js/main.af822975.js"
+    "static/css/main.6fa00407.css",
+    "static/js/main.c2cb916e.js"
   ]
 }
